@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | Hurriyah Nabilah</title>
+
+    <meta name="description" content="Personal portfolio of an Informatics Engineering graduate.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <a href="#home" class="logo">PORTFOLIO<span>.</span></a>
+
+    <nav>
+        <a href="#home" data-id="Beranda" data-en="Home">Beranda</a>
+        <a href="#about" data-id="Tentang" data-en="About">Tentang</a>
+        <a href="#experience" data-id="Pengalaman" data-en="Experience">Pengalaman</a>
+        <a href="#projects" data-id="Proyek" data-en="Projects">Proyek</a>
+        <a href="#contact" data-id="Kontak" data-en="Contact">Kontak</a>
+    </nav>
+
+    <button id="languageButton">EN</button>
+</header>
+
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="subtitle"
+           data-id="LULUSAN TEKNIK INFORMATIKA"
+           data-en="INFORMATICS ENGINEERING GRADUATE">
+           LULUSAN TEKNIK INFORMATIKA
+        </p>
+
+        <h1>
+            Kerja terstruktur.<br>
+            <em>Hasil bermakna.</em>
+        </h1>
+
+        <p class="description"
+           data-id="Saya lulusan S1 Teknik Informatika Universitas Papua dengan ketertarikan pada administrasi, pengolahan data, operasional bisnis, dan sistem informasi."
+           data-en="I am an Informatics Engineering graduate from Universitas Papua, interested in administration, data processing, business operations, and information systems.">
+
+           Saya lulusan S1 Teknik Informatika Universitas Papua dengan ketertarikan pada administrasi, pengolahan data, operasional bisnis, dan sistem informasi.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#experience" class="btn-primary"
+               data-id="Lihat Pengalaman"
+               data-en="Explore Experience">
+               Lihat Pengalaman
+            </a>
+
+            <a href="#contact" class="btn-link"
+               data-id="Hubungi Saya ↗"
+               data-en="Contact Me ↗">
+               Hubungi Saya ↗
+            </a>
+        </div>
+
+        <div class="hero-info">
+            <span>UNIVERSITAS PAPUA</span>
+            <span>IPK 3,49 / 4,00</span>
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+        <div class="image-frame">
+            <img src="assets/profile.jpg" alt="Foto Profil">
+        </div>
+
+        <p class="image-caption">MANOKWARI · INDONESIA</p>
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section class="about section" id="about">
+
+    <div class="section-title">
+        <p class="number">01 / ABOUT ME</p>
+
+        <h2>Tentang<br><em>Saya.</em></h2>
+    </div>
+
+    <div class="about-content">
+
+        <h3 data-id="Lulusan S1 Teknik Informatika Universitas Papua dengan IPK 3,49/4,00 dan predikat Sangat Memuaskan."
+            data-en="Bachelor of Informatics Engineering graduate from Universitas Papua with a GPA of 3.49/4.00 and a Very Satisfactory distinction.">
+
+            Lulusan S1 Teknik Informatika Universitas Papua dengan IPK 3,49/4,00 dan predikat Sangat Memuaskan.
+        </h3>
+
+        <p data-id="Memiliki pengalaman dalam administrasi, pengolahan data, dokumentasi, serta penggunaan sistem informasi melalui kegiatan akademik dan kerja praktik. Tertarik mempelajari proses bisnis dan bagaimana informasi yang akurat dapat mendukung kegiatan operasional perusahaan."
+           data-en="Experienced in administration, data processing, documentation, and information systems through academic and internship activities. Interested in business processes and how accurate information supports company operations.">
+
+           Memiliki pengalaman dalam administrasi, pengolahan data, dokumentasi, serta penggunaan sistem informasi melalui kegiatan akademik dan kerja praktik. Tertarik mempelajari proses bisnis dan bagaimana informasi yang akurat dapat mendukung kegiatan operasional perusahaan.
+        </p>
+
+        <div class="skills">
+            <span>Microsoft Office</span>
+            <span>Microsoft Excel</span>
+            <span>Administration</span>
+            <span>Data Processing</span>
+            <span>Documentation</span>
+            <span>Information Systems</span>
+            <span>Problem Solving</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- EXPERIENCE -->
+<section class="experience section" id="experience">
+
+    <div class="section-title">
+        <p class="number">02 / EXPERIENCE</p>
+
+        <h2>Pengalaman<br><em>Kerja Praktik.</em></h2>
+    </div>
+
+    <div class="experience-card">
+
+        <p class="period">JANUARI 2025 — FEBRUARI 2025</p>
+
+        <h3>PT Pertamina Patra Niaga</h3>
+
+        <h4>Fuel Terminal Manokwari</h4>
+
+        <p class="experience-description"
+           data-id="Melaksanakan kerja praktik dengan mempelajari dan membantu kegiatan administrasi serta operasional perusahaan, termasuk pengelolaan dokumen, pencatatan data, dan penggunaan sistem informasi."
+           data-en="Completed an internship supporting administrative and operational activities, including document management, data recording, and the use of information systems.">
+
+           Melaksanakan kerja praktik dengan mempelajari dan membantu kegiatan administrasi serta operasional perusahaan, termasuk pengelolaan dokumen, pencatatan data, dan penggunaan sistem informasi.
+        </p>
+
+        <div class="tasks">
+
+            <div class="task">
+                <span>01</span>
+
+                <h5 data-id="Administrasi Pesanan dan Surat Jalan"
+                    data-en="Order and Delivery Administration">
+                    Administrasi Pesanan dan Surat Jalan
+                </h5>
+
+                <p data-id="Mempelajari dan membantu proses administrasi Sales Order, Delivery Order, dan Good Issue menggunakan sistem OSDS."
+                   data-en="Learned and assisted with Sales Order, Delivery Order, and Good Issue administration using the OSDS system.">
+
+                   Mempelajari dan membantu proses administrasi Sales Order, Delivery Order, dan Good Issue menggunakan sistem OSDS.
+                </p>
+            </div>
+
+            <div class="task">
+                <span>02</span>
+
+                <h5 data-id="Rekapitulasi Data Absensi"
+                    data-en="Attendance Data Recap">
+                    Rekapitulasi Data Absensi
+                </h5>
+
+                <p data-id="Membantu melakukan rekapitulasi data absensi staf menggunakan Microsoft Excel."
+                   data-en="Assisted in compiling staff attendance records using Microsoft Excel.">
+
+                   Membantu melakukan rekapitulasi data absensi staf menggunakan Microsoft Excel.
+                </p>
+            </div>
+
+            <div class="task">
+                <span>03</span>
+
+                <h5 data-id="Pemahaman Proses Bisnis"
+                    data-en="Business Process Understanding">
+                    Pemahaman Proses Bisnis
+                </h5>
+
+                <p data-id="Mempelajari keterkaitan kegiatan administrasi, operasional, dan sistem informasi dalam lingkungan Fuel Terminal."
+                   data-en="Learned how administrative activities, operations, and information systems connect in a Fuel Terminal environment.">
+
+                   Mempelajari keterkaitan kegiatan administrasi, operasional, dan sistem informasi dalam lingkungan Fuel Terminal.
+                </p>
+            </div>
+
+        </div>
+
+        <p class="note">
+            Portofolio ini tidak menampilkan data atau dokumen internal perusahaan.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- PROJECTS -->
+<section class="projects section" id="projects">
+
+    <div class="section-title">
+        <p class="number">03 / PROJECTS</p>
+
+        <h2>Proyek<br><em>Pilihan.</em></h2>
+    </div>
+
+    <div class="project-list">
+
+        <div class="project-item">
+
+            <span class="project-number">01</span>
+
+            <div>
+                <p class="category">FINAL PROJECT · PYTHON · STREAMLIT</p>
+
+                <h3>Aplikasi Pendeteksi Penyakit Daun Cabai</h3>
+
+                <p data-id="Aplikasi berbasis web untuk mendeteksi dan mengklasifikasikan kondisi daun tanaman cabai menggunakan metode Transfer Learning berbasis VGG16."
+                   data-en="A web-based application designed to detect and classify chili leaf conditions using a VGG16-based Transfer Learning method.">
+
+                   Aplikasi berbasis web untuk mendeteksi dan mengklasifikasikan kondisi daun tanaman cabai menggunakan metode Transfer Learning berbasis VGG16.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="project-item">
+
+            <span class="project-number">02</span>
+
+            <div>
+                <p class="category">QUALITY ASSURANCE</p>
+
+                <h3>Manual Testing Practice</h3>
+
+                <p data-id="Pembelajaran Quality Assurance yang mencakup manual testing, penyusunan test case, identifikasi bug, dan dokumentasi hasil pengujian."
+                   data-en="Quality Assurance learning covering manual testing, test case preparation, bug identification, and test documentation.">
+
+                   Pembelajaran Quality Assurance yang mencakup manual testing, penyusunan test case, identifikasi bug, dan dokumentasi hasil pengujian.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section class="contact section" id="contact">
+
+    <p class="number">04 / CONTACT</p>
+
+    <h2>Mari terhubung<br><em>dan berkembang.</em></h2>
+
+    <p data-id="Terbuka terhadap peluang untuk belajar, berkontribusi, dan mengembangkan kemampuan profesional."
+       data-en="Open to opportunities to learn, contribute, and develop professional skills.">
+
+       Terbuka terhadap peluang untuk belajar, berkontribusi, dan mengembangkan kemampuan profesional.
+    </p>
+
+    <div class="contact-links">
+
+        <a href="hurriyahnabilah11@gmail.com">
+            Email ↗
+        </a>
+
+        <a href="https://www.linkedin.com/in/hurriyah-nabilah-79299b311?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+           target="_blank">
+            LinkedIn ↗
+        </a>
+
+        <a href="https://github.com/username"
+           target="_blank">
+            GitHub ↗
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+    <p>© <span id="year"></span> HURRIYAH NABILAH</p>
+    <p>Designed with care · Indonesia</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
